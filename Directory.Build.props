@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <!-- Redirect all MSBuild outputs away from Assets to a safe place Unity ignores (under project root) -->
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)Library\VSBuild\obj\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(MSBuildProjectName)\</IntermediateOutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)Library\VSBuild\bin\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
+  </PropertyGroup>
+</Project>

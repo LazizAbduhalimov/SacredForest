@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb9508115294eaa9d1559dde3c9dc2d, type: 3}
+  m_Name: Ghost
+  m_EditorClassIdentifier: 
+  Name: Ghost
+  Health: 6
+  Strength: 1
+  Agility: 3
+  Stamina: 1
+  DefaultWeapon: {fileID: 11400000, guid: 0c692c53c3d31674eb6172f17e1621d4, type: 2}
+  Abilities:
+  - rid: 5572551714002698317
+  Prefab: {fileID: 5164807037461777428, guid: e43a494ad25417a4ea63d1b261d8eca7, type: 3}
+  RewardWeapon: {fileID: 11400000, guid: b9e5ccb3049ccb247b5c80503bfedc8b, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 5572551714002698317
+      type: {class: HiddenAttack, ns: Client.Game, asm: Assembly-CSharp}
+      data: 
